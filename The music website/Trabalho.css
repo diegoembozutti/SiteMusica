@@ -44,169 +44,6 @@
     background-color: rgba(43, 60, 113, 1);
 }
 
-
-
-@media (max-width:928px) {
-    body{position: relative;
-        width: 428px;
-        height: 5161px;
-        background: #ffffff;
-        }
-        
-        h1 {position: absolute;
-            width: 327px;
-            height: 112px;
-            left: 48px;
-            top: 132px;
-            
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 50px;
-            line-height: 61px;
-            text-align: center;
-            
-            color: #F28B94;
-        }
-        
-        h2{position: absolute;
-            width: 327px;
-            height: 54px;
-            left: 50px;
-            top: 1450px;
-            
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 37px;
-            text-align: center;
-            
-            color: #FBCF2E;}
-        
-        h4{
-            position: absolute;
-        width: 375px;
-        height: 1782px;
-        left: 24px;
-        top: 264px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        line-height: 27px;
-        text-align: justify;
-        
-        color: #737373;
-        }
-        
-        .Nomesartistas{
-            font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        
-        color: #FBCF2E;
-        }
-        
-        #FrankSinatra{
-            position: absolute;
-        width: 363px;
-        height: 155px;
-        left: 32px;
-        top: 1600px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 18px;
-        text-align: center;
-        
-        color: #737373;
-        }
-        #ImagemSinatra{
-            position: ;
-        width: 186px;
-        height: 186px;
-        left: 118px;
-        top: ;
-        
-        }
-        
-        #MichaelJackson{
-            position: absolute;
-        width: 376px;
-        height: 158px;
-        left: 28px;
-        top: 2000px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 18px;
-        text-align: center;
-        
-        color: #737373;
-        }
-        #ImagemMichael{
-            width: 225px;
-            height: 225px;
-            left: 80px; }
-        
-        #Beethoven{
-            position: absolute;
-            width: 368px;
-            height: 200px;
-            left: 20px;
-            top: 2400px;
-            
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 18px;
-            text-align: center;
-            
-            color: #737373;
-        }
-        #ImagemBeethoven{
-            width: 260px;
-            height: 260px;
-            left: 100px;
-        }
-        
-        
-        
-        #ElvisPresley{position: absolute;
-            width: 352px;
-            height: 154px;
-            left: 35px;
-            top: 2900px;
-            
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 18px;
-            text-align: center;
-            }
-        
-        #ImagemElvis{
-            width: 220px;
-            height: 220px;
-            left: 100px;
-            top:100px;
-        }
-}
-
-
-
-
 body{position: relative;
 width: 1440px;
 height: 4224px;
@@ -279,10 +116,58 @@ color: #FBCF2E;
 
 #FrankSinatra{
     position: absolute;
-    width: 650px;
-    height: 290px;
-    left: 539px;
-    top: 1350px;
+width: 650px;
+height: 290px;
+left: 556px;
+top: 1404px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #737373;
+
+}
+#ImagemSinatra{
+
+position: absolute;
+width: 264px;
+height: 264px;
+
+right:60px;
+top: 0px;
+
+}
+
+#MichaelJackson{
+    position: absolute;
+    width: 627px;
+    height: 300px;
+    left: 250px;
+    top: 1804px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #737373;
+    
+}
+#ImagemMichael{
+   }
+
+#Beethoven{
+    position: absolute;
+    width: 660px;
+    height: 194px;
+    left: 553px;
+    top: 2173px;
     
     font-family: Montserrat;
     font-style: normal;
@@ -293,78 +178,64 @@ color: #FBCF2E;
     
     color: #737373;
 }
-#ImagemSinatra{
-
-position: absolute;
-width: 264px;
-height: 264px;
-
-right:670px;
-top: 0px;
-
+#ImagemBeethoven{
+   
 }
 
-#MichaelJackson{
+
+#ElvisPresley{
     position: absolute;
-width: 376px;
-height: 158px;
-left: 28px;
-top: 2000px;
+width: 629px;
+height: 311px;
+left: 248px;
+top: 2548px;
 
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
-line-height: 18px;
+font-size: 20px;
+line-height: 24px;
 text-align: center;
 
 color: #737373;
-}
-#ImagemMichael{
-    width: 225px;
-    height: 225px;
-    left: 80px; }
-
-#Beethoven{
-    position: absolute;
-    width: 368px;
-    height: 200px;
-    left: 20px;
-    top: 2400px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    
-    color: #737373;
-}
-#ImagemBeethoven{
-    width: 260px;
-    height: 260px;
-    left: 100px;
-}
-
-
-#ElvisPresley{position: absolute;
-    width: 352px;
-    height: 154px;
-    left: 35px;
-    top: 2900px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
     }
 
 #ImagemElvis{
-    width: 220px;
-    height: 220px;
-    left: 100px;
-    top:100px;
+ 
+}
+
+#musicaartistas{
+    position: absolute;
+width: 686px;
+height: 120px;
+left: 377px;
+top: 2815px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+
+color: #FBCF2E;
+}
+
+#maisgeneros{
+    position: absolute;
+width: 686px;
+height: 120px;
+left: 377px;
+top: 3490px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+
+color: #FBCF2E;
+
+}
 }
