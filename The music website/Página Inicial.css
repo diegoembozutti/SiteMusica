@@ -185,3 +185,30 @@ padding-left: 50px;
     font-family: "MontserratBold";
     src: url(./Montserrat-Bold.ttf);
 }
+
+*teste*
+
+.teste{
+    width: 387px;
+    height: 79px;
+    left: 30px;
+    background: linear-gradient(90deg, #3E569E 59.81%, #3E569E 64.48%, #D0D0D0 125.71%, #383C54 125.72%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(4px);
+    border-radius: 100px;
+}
+
+#txtteste{
+    position: absolute;
+    font-family: Montserrat;
+    font-size: 17px;
+    color: #FBCF2E;
+    display: inline-block;
+    height: 15px;
+    padding-left: 15px;
+}
+
+#imgteste{
+    width: 82px;
+
+}
