@@ -1,0 +1,187 @@
+#Logo{
+    width: 250px;
+    height: 77px;
+    margin: 10px;
+}
+
+#menu{padding-top: 50px;}
+
+
+.home-menu {
+    background: rgb(62, 86, 158);
+}
+
+.home-menu a{
+    color: #ffffff;
+}
+
+.home-menu li a:hover,
+.home-menu li a:focus, 
+.home-menu ul a:hover{
+
+    background-color:rgba(43, 60, 113, 1) ;
+    border: none;
+    color: rgb(150, 171, 235);
+}
+
+.home-menu {
+    text-align: left;
+}
+.home-menu ul {
+        font-size: 20px;
+        float: right;
+        padding-top: px;
+        text-size-adjust: 2px;
+    }
+
+.children{
+    background-color: rgba(43, 60, 113, 1);
+}
+
+#fundo{
+    background-color: rgb(255, 255, 255);
+}
+
+html, body{
+    width: 1300px;
+    background: rgb(244,244,244);
+    margin:auto; 
+}
+
+h1{
+    padding-top: 100px;
+    font-family: "MontserratSemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 73px;
+    text-align: center;
+
+    color: #F28B94;
+}
+
+h2{
+    height: 20px;
+    padding-top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    font-family: "MontserratBold";
+    color: #FBCF2E;
+}
+
+h4{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "MontserratRegular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: justify;
+
+    color: #737373;
+}
+
+.Nomesartistas{
+    font-family: "MontserratSemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-top: 50px;
+    color: #FBCF2E;
+}
+
+
+#imggaga{
+    padding-left:70px;
+    padding-top: 20px;
+    width: 310px;
+
+}
+
+#LadyGaga{
+    font-family: "MontserratRegular";
+    width: 750px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #737373;
+    padding-left: 90px;
+    display: inline-block;
+}
+
+
+
+#BrunoMars{
+    font-family: "MontserratRegular";
+    width: 750px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #737373;
+    padding-left: 50px;
+    display: inline-block;
+}
+#imgbruno{
+
+}
+
+#Madonna{
+    font-family: "MontserratRegular";
+    width: 750px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #737373;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+#imgmadonna{
+padding-left: 50px;
+}
+
+
+#Rihanna{
+    font-family: "MontserratRegular";
+    width: 750px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #737373;
+    padding-left: 50px;
+    display: inline-block;
+}
+#imgrihanna{
+    
+}
+
+
+@font-face {
+    font-family: "MontserratSemiBold";
+    src: url(./Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "MontserratRegular";
+    src: url(./Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url(./Montserrat-Bold.ttf);
+}
