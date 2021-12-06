@@ -1,57 +1,32 @@
 
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Mobile</title>
+    <link rel="stylesheet" href="cssmenu.css" />  
+  </head>
+  
+  <body>
+    <header id="header">
+      <a id="logo"><img href="" img src="./logocabesa.png"></a>
+      
+      <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+            <li><a href="/">Página Inicial</a></li>
+            <li><a href="/">Gêneros Musicais</a></li>
+            <li><a href="/">Premiações</a></li>
+            <li><a href="/">Formulários</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="jsmenu.js"></script>
 
-    <link rel="stylesheet" href="menu.css" />
-
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-
-    <title>The Music website</title>
-
-</head>
-
-<body>
-    <div class="header">
-        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
     
-
-            <div class="pure-menu pure-menu-horizontal">
-                <ul class="pure-menu-list">
-                    <li class="pure-menu-item" id="menu">
-                        <a href="#" class="pure-menu-link">Página Inicial</a>
-                    </li>
-                    <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover" id="menu">
-                        <a href="#" id="menuLink1" class="pure-menu-link ">Gêneros Musicais</a>
-                        <ul class="pure-menu-children">
-                            <li class="pure-menu-item children">
-                                <a href="#" class="pure-menu-link">POP</a>
-                            </li>
-                            <li class="pure-menu-item children">
-                                <a href="#" class="pure-menu-link">Funk</a>
-                            </li>
-                            <li class="pure-menu-item children">
-                                <a href="#" class="pure-menu-link">Rock</a>
-                            </li>
-                            <li class="pure-menu-item children">
-                                <a href="#" class="pure-menu-link">MPB</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="pure-menu-item" id="menu">
-                        <a href="#" class="pure-menu-link">Premiações</a>
-                    </li>
-                    <li class="pure-menu-item" id="menu">
-                        <a href="#" class="pure-menu-link">Sugestões</a>
-                    </li>
-                </ul>
-                <img id="Logo" src="./Verde_e_Branco_Música_Logotipo__1_-removebg-preview (2).png"> </img>
-        </div>
-  </div>    
-
-
-
-</body>
+  </body>
+  
+  </html>
