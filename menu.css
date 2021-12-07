@@ -1,55 +1,54 @@
-
-body,
-ul {
+body, ul{
   margin: 0px;
   padding: 0px;
 }
 
-a {
-  color: rgb(59, 59, 59);
-  text-decoration: none;
-  font-family: sans-serif;
-}
-
-a:hover {
-  background: rgb(222, 230, 255);;
-
-}
-
-#logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  height: 80px;
-  width: 210px;
-}
-
-#header {
+#header{
   box-sizing: border-box;
   height: 80px;
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   background: rgb(62, 86, 158);
 }
 
-#menu {
+#menu{
   display: flex;
   list-style: none;
   gap: 0.5rem;
 }
 
-#menu a {
+.pure-menu a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
   display: block;
   padding: 0.5rem;
+  font-size: 20px;
 }
 
-#btn-mobile {
+.pure-menu a:hover, li a:hover{
+  background-color:rgba(43, 60, 113, 1);
+  border: none;
+  color: rgb(150, 171, 235);
+}
+
+.children{
+  background-color: rgba(43, 60, 113, 1);
+}
+
+#logo {
+  height: 70px;
+}
+
+#btn-mobile{
   display: none;
 }
 
 @media (max-width: 600px) {
-  #menu {
+  
+    #menu {
     display: block;
     position: absolute;
     width: 100%;
@@ -61,18 +60,21 @@ a:hover {
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
-  }
-  #nav.active #menu {
+    }
+
+    #nav.active #menu {
     height: calc(100vh - 80px);
     visibility: visible;
     overflow-y: auto;
-  }
-  #menu a {
+    }
+
+    #menu a {
     padding: 1rem 0;
     margin: 0 1rem;
-    border-bottom: 2px solid rgba(255, 0, 0, 0.05);
-  }
-  #btn-mobile {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    }
+    
+    #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -80,13 +82,15 @@ a:hover {
     background: none;
     cursor: pointer;
     gap: 0.5rem;
-  }
-  #hamburger {
+    color: rgb(255, 255, 255);
+    }
+
+    #hamburger {
     border-top: 2px solid;
     width: 20px;
-  }
-  #hamburger::after,
-  #hamburger::before {
+    }
+
+    #hamburger::after, #hamburger::before {
     content: '';
     display: block;
     width: 20px;
@@ -95,15 +99,19 @@ a:hover {
     margin-top: 5px;
     transition: 0.3s;
     position: relative;
-  }
-  #nav.active #hamburger {
-    border-top-color: transparent;
-  }
-  #nav.active #hamburger::before {
-    transform: rotate(135deg);
-  }
-  #nav.active #hamburger::after {
-    transform: rotate(-135deg);
-    top: -7px;
-  }
+    }
+
+    #nav.active #hamburger{
+      border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before{
+      transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+
 }
