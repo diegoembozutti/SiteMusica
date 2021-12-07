@@ -1,47 +1,10 @@
-#Logo{
-    width: 250px;
-    height: 77px;
-    margin: 10px;
-}
-
-#menu{
-    padding-top: 50px;
-}
-
-.home-menu {
-    background: rgb(62, 86, 158);
-    text-align: left;
-}
-
-.home-menu a{
-    color: #ffffff;
-}
-
-.home-menu li a:hover, .home-menu li a:focus, .home-menu ul a:hover{
-
-    background-color:rgba(43, 60, 113, 1) ;
-    border: none;
-    color: rgb(150, 171, 235);
-}
-
-.home-menu ul {
-        font-size: 20px;
-        float: right;
-        padding-top: px;
-        text-size-adjust: 2px;
-    }
-
-.children{
-    background-color: rgba(43, 60, 113, 1);
+html, body{
+    background-color: rgb(244, 244, 244);
 }
 
 #fundo{
-    background-color: rgb(255, 255, 255);
-}
-
-html, body{
     width: 1300px;
-    background: rgb(244,244,244);
+    background: rgb(255, 255, 255);
     margin:auto; 
 }
 
@@ -103,11 +66,6 @@ h4{
 }
 
 .imgEsquerda{
-    font-family: "MontserratRegular";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #737373;
     float: left;
     margin-left: 90px;
     margin-top: 48px;
@@ -127,11 +85,6 @@ h4{
 }
 
 .imgDireita{
-    font-family: "MontserratRegular";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #737373;
     float: right;
     margin-right: 80px;
     margin-top: 48px;
